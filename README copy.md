@@ -18,7 +18,7 @@ This project demonstrates how to create an `API` for an `LLM model` using Ollama
 
 3. **Upload Your Files to the Space**  
    - Copy `app.py`, `Dockerfile`, and `requirements.txt` from this repository to your project folder.  
-   - You can change the model used in Ollama. For example, I used `llama3.1`.  
+   - You can change the model used in Ollama. For example, I used `gemma2:9b-instruct-q5_0`.  
    - If you use a different model, update the model name in both `Dockerfile` and `app.py`.  
    - Be careful when using large models, as Hugging Face Spaces run on CPUs.
 
@@ -35,4 +35,4 @@ This project demonstrates how to create an `API` for an `LLM model` using Ollama
    - Use `/` for a quick check and `/chat` to test the LLM call.
 
 ## URL for This Repository  
-You can find the API for this repo [here](https://firass-ollama.hf.space/docs#/)
+You can find the API for this repo [here](https://ahmedsaqr28-gemma2-9b-withollama.hf.space/docs)
